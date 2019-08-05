@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Mobile SDK\nGetting Started</string>
+
+    <!-- we use different callback schemes here to avoid 'Open with' dialog,
+         the intent-filter for callback must be defined in the same activity which initiates the checkout
+         to properly handle onActivityResult -->
+    <string name="checkout_ui_callback_scheme">checkoutui</string>
+    <string name="payment_button_callback_scheme">paymentbutton</string>
+    <string name="custom_ui_callback_scheme">customui</string>
+
+    <string name="checkout_ui_title">Ready-to-Use UI</string>
+    <string name="payment_button_title">Payment Button</string>
+    <string name="custom_ui_title">SDK &amp; Your Own UI</string>
+    <string name="checkout_immediately_with">Checkout immediately with</string>
+    <string name="sdk_version_number">mobile sdk v%s</string>
+    <string name="visa">VISA</string>
+
+    <string name="card_holder_hint">Card Holder</string>
+    <string name="card_number_hint">Card Number</string>
+    <string name="card_expiry_month_hint">MM</string>
+    <string name="card_expiry_year_hint">YY</string>
+    <string name="card_cvv_hint">CVV</string>
+
+    <string name="date_delimiter">/</string>
+
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_proceed_to_checkout">PROCEED TO CHECKOUT</string>
+    <string name="button_pay_now">PAY NOW</string>
+
+    <string name="message_successful_payment">The payment was successful</string>
+    <string name="message_unsuccessful_payment">"The payment was unsuccessful"</string>
+    <string name="message_payment_confirmation">Payment of %1$s %2$s will be executed</string>
+
+    <string name="progress_message_please_wait">Please wait…</string>
+    <string name="progress_message_checkout_id">Getting the checkout id…</string>
+    <string name="progress_message_checkout_info">Getting the checkout info…</string>
+    <string name="progress_message_payment_status">Getting the payment status…</string>
+    <string name="progress_message_processing_payment">Processing payment…</string>
+
+    <string name="error_message">An error occurred</string>
+    <string name="error_empty_fields">The fields must not be empty</string>
+</resources>

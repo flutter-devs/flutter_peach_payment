@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#424242</color>
+    <color name="colorPrimaryDark">@android:color/black</color>
+    <color name="colorAccent">#2196f3</color>
+
+    <!-- override the colors for checkout theme -->
+    <color name="checkout_color_accent">@color/colorAccent</color>
+    <color name="checkout_section_background_color_light">#e3f2fd</color>
+</resources>

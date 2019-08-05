@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="amount_text_size">54sp</dimen>
+    <dimen name="checkout_immediately_text_size">16sp</dimen>
+</resources>
