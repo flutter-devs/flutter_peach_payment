@@ -1,10 +1,12 @@
 name: flutter_peachpay_plugin
 description: A Flutter plugin for peach payment gateway for both Android and iOS.
-version: 0.0.1
+version: 0.1.1
 authors:
 - Manoj Kumar <manoj@aeologic.com>
 - Virander <virander@aeologic.com>
 homepage: https://aeologic.com
+repository: https://github.com/flutter-devs/flutter_peach_payment
+issue_tracker: https://github.com/flutter-devs/flutter_peach_payment/issues
 environment:
   sdk: ">=2.1.0 <3.0.0"
 
